@@ -3,28 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MIDI琴伴·钢琴学习辅助系统 | 个人作品展示</title>
-    <meta name="description" content="专业的钢琴学习辅助系统，支持MIDI设备连接，提供音符对照、练习训练、情绪表达等功能">
-    <meta name="keywords" content="钢琴学习,MIDI,音乐教育,五线谱,简谱,个人作品">
-    <meta name="author" content="Your Name">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://your-domain.com">
-    <meta property="og:title" content="MIDI琴伴·钢琴学习辅助系统">
-    <meta property="og:description" content="专业的钢琴学习辅助系统，支持MIDI设备连接">
-    <meta property="og:image" content="https://your-domain.com/preview.jpg">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://your-domain.com">
-    <meta property="twitter:title" content="MIDI琴伴·钢琴学习辅助系统">
-    <meta property="twitter:description" content="专业的钢琴学习辅助系统，支持MIDI设备连接">
-    <meta property="twitter:image" content="https://your-domain.com/preview.jpg">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iIzNiODJmNiIvPgo8dGV4dCB4PSI1IiB5PSIyNCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IndoaXRlIj7wn465PC90ZXh0Pgo8L3N2Zz4K">
-    
+    <title>MIDI琴伴·钢琴学习辅助系统</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&display=swap');
         
@@ -51,134 +30,6 @@
             background: var(--bg-color);
             color: var(--text-color);
             line-height: 1.6;
-        }
-
-        /* 个人信息展示区域 */
-        .personal-header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 20px;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .personal-info {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .personal-title {
-            font-size: 32px;
-            font-weight: 600;
-            margin-bottom: 8px;
-        }
-
-        .personal-subtitle {
-            font-size: 18px;
-            opacity: 0.9;
-            margin-bottom: 16px;
-        }
-
-        .tech-stack {
-            display: flex;
-            justify-content: center;
-            gap: 12px;
-            flex-wrap: wrap;
-            margin-top: 16px;
-        }
-
-        .tech-tag {
-            background: rgba(255, 255, 255, 0.2);
-            padding: 4px 12px;
-            border-radius: 16px;
-            font-size: 14px;
-            backdrop-filter: blur(10px);
-        }
-
-        /* 项目介绍区域 */
-        .project-intro {
-            max-width: 800px;
-            margin: 0 auto 30px auto;
-            background: var(--card-bg);
-            border-radius: 16px;
-            padding: 24px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-            border: 1px solid var(--border-color);
-        }
-
-        .intro-title {
-            font-size: 24px;
-            font-weight: 600;
-            color: var(--primary-color);
-            margin-bottom: 16px;
-            text-align: center;
-        }
-
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 16px;
-            margin: 20px 0;
-        }
-
-        .feature-item {
-            padding: 16px;
-            background: #f8fafc;
-            border-radius: 12px;
-            text-align: center;
-        }
-
-        .feature-icon {
-            font-size: 32px;
-            margin-bottom: 8px;
-        }
-
-        .feature-title {
-            font-weight: 600;
-            margin-bottom: 4px;
-        }
-
-        .feature-desc {
-            font-size: 14px;
-            color: #64748b;
-        }
-
-        /* 底部链接 */
-        .footer-links {
-            text-align: center;
-            padding: 30px 20px;
-            background: var(--card-bg);
-            border-top: 1px solid var(--border-color);
-            margin-top: 40px;
-        }
-
-        .footer-links h3 {
-            margin-bottom: 16px;
-            color: var(--text-color);
-        }
-
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 16px;
-            flex-wrap: wrap;
-        }
-
-        .social-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 8px 16px;
-            background: var(--primary-color);
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            transition: all 0.2s ease;
-        }
-
-        .social-link:hover {
-            background: var(--secondary-color);
-            transform: translateY(-1px);
         }
 
         /* 登录界面样式 */
@@ -306,17 +157,7 @@
         .page { display: none; }
         .page.active { display: block; }
 
-        /* 响应式设计 */
-        @media (max-width: 768px) {
-            .personal-title { font-size: 24px; }
-            .personal-subtitle { font-size: 16px; }
-            .tech-stack { gap: 8px; }
-            .tech-tag { font-size: 12px; padding: 2px 8px; }
-            .features-grid { grid-template-columns: 1fr; }
-            .social-links { flex-direction: column; align-items: center; }
-        }
-
-        /* 其余样式保持原样 */
+        /* 四宫格布局 */
         .notation-container {
             max-width: 800px;
             margin: 0 auto 20px auto;
@@ -360,6 +201,70 @@
             font-weight: 600;
             color: var(--current-note-color, var(--primary-color));
         }
+
+        /* 五线谱样式 */
+        .mini-staff { position: relative; width: 120px; height: 80px; }
+        .mini-staff-line {
+            position: absolute;
+            left: 25px;
+            right: 5px;
+            height: 1.5px;
+            background: #374151;
+        }
+        .mini-staff-line:nth-child(1) { top: 10px; }
+        .mini-staff-line:nth-child(2) { top: 20px; }
+        .mini-staff-line:nth-child(3) { top: 30px; }
+        .mini-staff-line:nth-child(4) { top: 40px; }
+        .mini-staff-line:nth-child(5) { top: 50px; }
+
+        .mini-clef {
+            position: absolute;
+            left: 2px;
+            top: 20px;
+            font-size: 32px;
+            font-weight: bold;
+            color: #374151;
+            z-index: 2;
+        }
+
+        .mini-note {
+            position: absolute;
+            width: 14px;
+            height: 10px;
+            background: var(--current-note-color, var(--accent-color));
+            border-radius: 50%;
+            left: 55px;
+            z-index: 3;
+            opacity: 0;
+            transition: all 0.3s ease;
+            border: 1px solid #374151;
+            box-shadow: 0 0 8px var(--current-note-color, var(--accent-color));
+        }
+
+        .mini-note.active { opacity: 1; }
+        .mini-ledger-line {
+            position: absolute;
+            left: 45px;
+            right: 15px;
+            height: 1.5px;
+            background: #374151;
+            z-index: 1;
+        }
+
+        /* 简谱样式 */
+        .jianpu-content { font-family: 'Times New Roman', serif; position: relative; }
+        .jianpu-dot {
+            position: absolute;
+            top: -6px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 3px;
+            height: 3px;
+            background: var(--current-note-color, var(--primary-color));
+            border-radius: 50%;
+            display: none;
+        }
+        .jianpu-dot.show { display: block; }
 
         /* 钢琴样式 */
         .piano-container {
@@ -455,6 +360,470 @@
         
         .black-key .note-name { color: #d1d5db; font-size: 9px; bottom: 6px; }
 
+        /* 练习页面样式 */
+        .exercise-panel {
+            max-width: 800px;
+            margin: 0 auto 20px auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border-color);
+        }
+
+        .exercise-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+            background: #f1f5f9;
+            padding: 4px;
+            border-radius: 12px;
+            overflow-x: auto;
+        }
+
+        .exercise-tab {
+            padding: 8px 16px;
+            background: transparent;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            white-space: nowrap;
+            transition: all 0.2s ease;
+            color: var(--text-color);
+        }
+
+        .exercise-tab.active { background: var(--primary-color); color: white; }
+        .exercise-tab:hover:not(.active) { background: #e2e8f0; }
+
+        .exercise-content {
+            min-height: 200px;
+            padding: 20px;
+            background: #fafafa;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .exercise-title { font-size: 18px; font-weight: 600; margin-bottom: 16px; color: var(--text-color); }
+        .exercise-description { font-size: 14px; color: #64748b; margin-bottom: 20px; }
+
+        /* 练习组件通用样式 */
+        .practice-container { display: flex; flex-direction: column; align-items: center; gap: 20px; }
+        .large-display { font-size: 32px; font-weight: 600; color: var(--primary-color); }
+        .control-group { display: flex; gap: 12px; align-items: center; }
+        .control-btn, .exercise-btn {
+            padding: 10px 16px;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            font-size: 14px;
+        }
+        .control-btn:hover, .exercise-btn:hover { background: var(--secondary-color); transform: translateY(-1px); }
+        .control-btn:disabled { background: #94a3b8; cursor: not-allowed; transform: none; }
+
+        .indicator {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #e2e8f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            transition: all 0.1s ease;
+        }
+        .indicator.active { background: var(--accent-color); color: white; transform: scale(1.2); }
+
+        .note-sequence { display: flex; justify-content: center; gap: 12px; margin: 20px 0; flex-wrap: wrap; }
+        .note-circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #e2e8f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            text-align: center;
+            line-height: 1.2;
+            white-space: pre-line;
+        }
+        .note-circle.current {
+            background: var(--accent-color);
+            color: white;
+            border-color: var(--accent-color);
+            animation: pulse 1s infinite;
+        }
+        .note-circle.played { background: var(--success-color); color: white; }
+        .note-circle.missed { background: var(--warning-color); color: white; }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .stats-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            padding: 16px;
+            background: white;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+        .stat-item { text-align: center; }
+        .stat-value { font-size: 24px; font-weight: 600; color: var(--primary-color); }
+        .stat-label { font-size: 12px; color: #64748b; margin-top: 4px; }
+
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background: #e2e8f0;
+            border-radius: 2px;
+            margin: 16px 0;
+            overflow: hidden;
+        }
+        .progress-fill { height: 100%; background: var(--primary-color); width: 0%; transition: width 0.3s ease; }
+
+        .interval-display {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--primary-color);
+            padding: 16px 24px;
+            background: white;
+            border-radius: 12px;
+            border: 2px solid var(--border-color);
+        }
+        .interval-buttons { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+        .interval-btn {
+            padding: 8px 16px;
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 14px;
+        }
+        .interval-btn:hover { border-color: var(--primary-color); background: #f8fafc; }
+        .interval-btn.correct { background: var(--success-color); color: white; border-color: var(--success-color); }
+        .interval-btn.wrong { background: var(--warning-color); color: white; border-color: var(--warning-color); }
+
+        /* 情绪页面样式 */
+        .emotion-page { max-width: 1000px; margin: 0 auto; }
+        .emotion-container {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border-color);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .emotion-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .emotion-btn {
+            padding: 20px;
+            border: none;
+            border-radius: 15px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .emotion-btn:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+        .emotion-btn.active { transform: scale(1.05); box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); }
+
+        .happy { background: linear-gradient(45deg, #FFD700, #FFA500); color: white; }
+        .sad { background: linear-gradient(45deg, #4682B4, #2F4F4F); color: white; }
+        .calm { background: linear-gradient(45deg, #98FB98, #00CED1); color: white; }
+        .excited { background: linear-gradient(45deg, #FF6347, #FF1493); color: white; }
+        .angry { background: linear-gradient(45deg, #DC143C, #8B0000); color: white; }
+
+        .emotion-display {
+            margin: 30px 0;
+            padding: 20px;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.8);
+            min-height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid var(--border-color);
+        }
+
+        .emotion-visual {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 10px;
+            transition: all 0.5s ease;
+            animation: pulse2 2s infinite;
+        }
+
+        @keyframes pulse2 {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .emotion-piano-keys {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+            gap: 1px;
+            overflow-x: auto;
+            padding: 10px;
+            background: #f1f5f9;
+            border-radius: 12px;
+        }
+
+        .emotion-key {
+            width: 35px;
+            height: 120px;
+            background: white;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            transition: all 0.1s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            padding-bottom: 8px;
+            font-size: 11px;
+            line-height: 1.2;
+            border-radius: 0 0 4px 4px;
+        }
+        .emotion-key:hover { background: #f0f0f0; }
+        .emotion-key.active { background: var(--primary-color); color: white; }
+        .emotion-key.highlight {
+            background: #FFD700;
+            color: #333;
+            animation: glow 1s infinite alternate;
+        }
+
+        @keyframes glow {
+            0% { box-shadow: 0 0 5px rgba(255, 215, 0, 0.8); }
+            100% { box-shadow: 0 0 20px rgba(255, 215, 0, 1); }
+        }
+
+        .emotion-black-key {
+            width: 22px;
+            height: 80px;
+            background: #333;
+            color: white;
+            margin: 0 -11px;
+            z-index: 1;
+            border-radius: 0 0 3px 3px;
+        }
+        .emotion-black-key:hover { background: #555; }
+
+        .emotion-diary {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(59, 130, 246, 0.05);
+            border-radius: 15px;
+            border-left: 5px solid var(--primary-color);
+        }
+
+        .diary-entry {
+            text-align: left;
+            margin: 10px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border-color);
+        }
+
+        .virtual-friend {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+        .virtual-friend:hover { transform: scale(1.1); }
+
+        .friend-message {
+            position: fixed;
+            bottom: 110px;
+            right: 20px;
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            max-width: 200px;
+            display: none;
+            z-index: 1000;
+            border: 1px solid var(--border-color);
+        }
+
+        /* 设置页面 */
+        .settings-container { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+        .settings-section {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border-color);
+        }
+        .settings-section h3 {
+            margin: 0 0 16px 0;
+            color: var(--text-color);
+            font-size: 16px;
+            font-weight: 600;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .setting-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; font-size: 14px; }
+
+        .toggle {
+            position: relative;
+            width: 48px;
+            height: 24px;
+            background: #cbd5e1;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .toggle.active { background: var(--primary-color); }
+        .toggle::before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: white;
+            border-radius: 50%;
+            top: 2px;
+            left: 2px;
+            transition: all 0.2s ease;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        }
+        .toggle.active::before { transform: translateX(24px); }
+
+        .volume-row { display: flex; align-items: center; gap: 12px; margin: 8px 0; }
+        .volume-label { min-width: 80px; font-weight: 500; font-size: 14px; }
+        .volume-slider { flex: 1; height: 4px; border-radius: 2px; background: #e2e8f0; outline: none; cursor: pointer; }
+        .volume-value { min-width: 36px; text-align: right; font-weight: 600; color: var(--primary-color); font-size: 13px; }
+
+        /* MIDI设置简化样式 */
+        .midi-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .midi-section h3 {
+            color: white;
+            border-bottom-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .midi-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 16px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            margin: 12px 0;
+            font-weight: 500;
+        }
+
+        .midi-status.connected {
+            background: rgba(16, 185, 129, 0.2);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        .midi-status.disconnected {
+            background: rgba(239, 68, 68, 0.2);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+
+        .midi-controls {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin: 12px 0;
+        }
+
+        .midi-btn {
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .midi-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-1px);
+        }
+
+        .midi-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .midi-btn.connected {
+            background: var(--warning-color);
+            border-color: var(--warning-color);
+        }
+
+        .midi-indicators {
+            display: flex;
+            gap: 12px;
+            margin: 12px 0;
+            flex-wrap: wrap;
+        }
+
+        .midi-indicator {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+        }
+
+        .indicator-light {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transition: all 0.1s ease;
+        }
+
+        .indicator-light.active {
+            background: #00ff00;
+            box-shadow: 0 0 6px #00ff00;
+        }
+
         /* 退出按钮 */
         .logout-btn {
             position: fixed;
@@ -470,60 +839,76 @@
             z-index: 1000;
         }
 
-        /* 为简化展示，其他复杂样式省略 */
+        /* 胜利动画 */
+        .victory-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
+        }
+
+        .victory-content {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 400px;
+            animation: victoryAppear 0.5s ease-out;
+        }
+
+        @keyframes victoryAppear {
+            0% { opacity: 0; transform: scale(0.8) translateY(-50px); }
+            100% { opacity: 1; transform: scale(1) translateY(0); }
+        }
+
+        .victory-emoji { font-size: 60px; margin-bottom: 20px; animation: bounce 1s infinite; }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-20px); }
+            60% { transform: translateY(-10px); }
+        }
+
+        .victory-title { font-size: 24px; font-weight: 600; color: var(--success-color); margin-bottom: 12px; }
+        .victory-message { font-size: 16px; color: #64748b; margin-bottom: 20px; }
+        .victory-btn {
+            padding: 12px 24px;
+            background: var(--success-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            margin: 0 8px;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .container { padding: 16px; }
+            .notation-container { grid-template-columns: 1fr; grid-template-rows: repeat(4, 80px); height: auto; gap: 12px; }
+            .section-content { font-size: 28px; }
+            .page-navigation { flex-direction: column; gap: 4px; }
+            .exercise-tabs { flex-direction: column; gap: 4px; }
+            .note-sequence { gap: 8px; }
+            .note-circle { width: 40px; height: 40px; font-size: 14px; }
+            .control-group { flex-direction: column; align-items: center; }
+            .volume-row { flex-direction: column; align-items: stretch; gap: 6px; }
+            .emotion-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+            .emotion-piano-keys { overflow-x: scroll; padding: 5px; }
+            .midi-controls { justify-content: center; }
+            .midi-indicators { justify-content: center; }
+        }
     </style>
 </head>
 <body>
-    <!-- 个人作品展示区域 -->
-    <div class="personal-header" id="personalHeader">
-        <div class="personal-info">
-            <h1 class="personal-title">🎹 MIDI琴伴·钢琴学习辅助系统</h1>
-            <p class="personal-subtitle">专业级钢琴教学与练习平台 · 个人作品展示</p>
-            <div class="tech-stack">
-                <span class="tech-tag">HTML5</span>
-                <span class="tech-tag">CSS3</span>
-                <span class="tech-tag">JavaScript ES6+</span>
-                <span class="tech-tag">Web Audio API</span>
-                <span class="tech-tag">Web MIDI API</span>
-                <span class="tech-tag">响应式设计</span>
-            </div>
-        </div>
-    </div>
-
-    <!-- 项目介绍 -->
-    <div class="project-intro" id="projectIntro">
-        <h2 class="intro-title">💡 项目特色功能</h2>
-        <div class="features-grid">
-            <div class="feature-item">
-                <div class="feature-icon">🎼</div>
-                <div class="feature-title">音符对照</div>
-                <div class="feature-desc">五线谱、简谱、音名、唱名实时同步显示</div>
-            </div>
-            <div class="feature-item">
-                <div class="feature-icon">🎹</div>
-                <div class="feature-title">MIDI支持</div>
-                <div class="feature-desc">支持真实MIDI设备连接，硬件交互</div>
-            </div>
-            <div class="feature-item">
-                <div class="feature-icon">🎵</div>
-                <div class="feature-title">练习训练</div>
-                <div class="feature-desc">节拍器、音阶练习、音程听辨</div>
-            </div>
-            <div class="feature-item">
-                <div class="feature-icon">💝</div>
-                <div class="feature-title">情绪表达</div>
-                <div class="feature-desc">通过音乐表达情感，记录情绪日记</div>
-            </div>
-        </div>
-        <div style="text-align: center; margin-top: 20px;">
-            <button class="login-btn" onclick="enterApp()" style="width: auto; padding: 12px 24px;">
-                🚀 体验系统（用户名/密码：admin）
-            </button>
-        </div>
-    </div>
-
     <!-- 登录界面 -->
-    <div class="login-container" id="loginContainer" style="display: none;">
+    <div class="login-container" id="loginContainer">
         <div class="login-box">
             <h1 class="login-title">🎹 MIDI琴伴</h1>
             <p class="login-subtitle">钢琴学习辅助系统</p>
@@ -548,12 +933,6 @@
             
             <div style="margin-top: 20px; font-size: 12px; color: #666;">
                 提示：用户名和密码均为 admin
-            </div>
-            
-            <div style="margin-top: 20px;">
-                <button onclick="backToHome()" style="background: #6b7280; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer;">
-                    ← 返回首页
-                </button>
             </div>
         </div>
     </div>
@@ -582,39 +961,250 @@
                     <div class="notation-section staff-section" id="staff-section">
                         <div class="section-title">五线谱</div>
                         <div class="section-content">
-                            <div style="font-size: 24px;">🎼</div>
+                            <div class="mini-staff" id="mini-staff">
+                                <div class="mini-staff-line"></div>
+                                <div class="mini-staff-line"></div>
+                                <div class="mini-staff-line"></div>
+                                <div class="mini-staff-line"></div>
+                                <div class="mini-staff-line"></div>
+                                <div class="mini-clef">𝄞</div>
+                                <div class="mini-note" id="mini-note"></div>
+                            </div>
                         </div>
                     </div>
                     
                     <div class="notation-section" id="jianpu-section">
                         <div class="section-title">简谱</div>
-                        <div class="section-content" id="jianpu-display">-</div>
+                        <div class="section-content jianpu-content" id="jianpu-display">
+                            <span id="jianpu-number">-</span>
+                            <div class="jianpu-dot" id="jianpu-dot"></div>
+                        </div>
                     </div>
                     
                     <div class="notation-section" id="note-name-section">
                         <div class="section-title">音名</div>
-                        <div class="section-content" id="note-name-display">-</div>
+                        <div class="section-content note-name-content" id="note-name-display">-</div>
                     </div>
                     
                     <div class="notation-section" id="solfege-section">
                         <div class="section-title">唱名</div>
-                        <div class="section-content" id="solfege-display">-</div>
+                        <div class="section-content solfege-content" id="solfege-display">-</div>
                     </div>
                 </div>
                 
                 <div class="piano-container">
                     <div class="navigation-buttons">
-                        <button class="nav-button">◀</button>
-                        <button class="nav-button">▶</button>
+                        <button class="nav-button" id="scroll-left-1">◀</button>
+                        <button class="nav-button" id="scroll-right-1">▶</button>
                     </div>
                     
                     <div class="keyboard-container">
-                        <div class="keyboard" id="piano-keyboard-1">
-                            <!-- 简化的钢琴键盘展示 -->
-                            <div style="padding: 40px; text-align: center; color: #64748b;">
-                                🎹 虚拟钢琴键盘区域<br>
-                                <small>点击"体验系统"查看完整功能</small>
+                        <div class="keyboard" id="piano-keyboard-1"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 练习训练页面 -->
+            <div class="page" id="exercise-page">
+                <div class="exercise-panel">
+                    <div class="exercise-tabs">
+                        <button class="exercise-tab active" data-exercise="metronome">🥁 节拍器</button>
+                        <button class="exercise-tab" data-exercise="scale">🎼 音阶练习</button>
+                        <button class="exercise-tab" data-exercise="interval">🎵 音程练习</button>
+                    </div>
+                    
+                    <div class="exercise-content" id="exercise-content"></div>
+                    
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                </div>
+                
+                <div class="piano-container">
+                    <div class="navigation-buttons">
+                        <button class="nav-button" id="scroll-left-2">◀</button>
+                        <button class="nav-button" id="scroll-right-2">▶</button>
+                    </div>
+                    
+                    <div class="keyboard-container">
+                        <div class="keyboard" id="piano-keyboard-2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 弹走小烦恼页面 -->
+            <div class="page" id="emotion-page">
+                <div class="emotion-page">
+                    <div class="emotion-container">
+                        <div class="emotion-selector">
+                            <h3>今天你的心情是什么样的？</h3>
+                            <div class="emotion-grid">
+                                <button class="emotion-btn happy" data-emotion="happy">😊 开心</button>
+                                <button class="emotion-btn sad" data-emotion="sad">😢 难过</button>
+                                <button class="emotion-btn calm" data-emotion="calm">😌 平静</button>
+                                <button class="emotion-btn excited" data-emotion="excited">🤩 兴奋</button>
+                                <button class="emotion-btn angry" data-emotion="angry">😠 生气</button>
                             </div>
+                        </div>
+
+                        <div class="emotion-display" id="emotionDisplay">
+                            <p>选择一个情绪，我们一起用音乐来表达！</p>
+                        </div>
+
+                        <div class="emotion-piano-keys" id="emotionPianoKeys">
+                            <div class="emotion-key" data-note="C3" style="font-size: 10px;">Do<br>低</div>
+                            <div class="emotion-key emotion-black-key" data-note="C#3"></div>
+                            <div class="emotion-key" data-note="D3" style="font-size: 10px;">Re<br>低</div>
+                            <div class="emotion-key emotion-black-key" data-note="D#3"></div>
+                            <div class="emotion-key" data-note="E3" style="font-size: 10px;">Mi<br>低</div>
+                            <div class="emotion-key" data-note="F3" style="font-size: 10px;">Fa<br>低</div>
+                            <div class="emotion-key emotion-black-key" data-note="F#3"></div>
+                            <div class="emotion-key" data-note="G3" style="font-size: 10px;">So<br>低</div>
+                            <div class="emotion-key emotion-black-key" data-note="G#3"></div>
+                            <div class="emotion-key" data-note="A3" style="font-size: 10px;">La<br>低</div>
+                            <div class="emotion-key emotion-black-key" data-note="A#3"></div>
+                            <div class="emotion-key" data-note="B3" style="font-size: 10px;">Si<br>低</div>
+                            
+                            <div class="emotion-key" data-note="C4">Do</div>
+                            <div class="emotion-key emotion-black-key" data-note="C#4"></div>
+                            <div class="emotion-key" data-note="D4">Re</div>
+                            <div class="emotion-key emotion-black-key" data-note="D#4"></div>
+                            <div class="emotion-key" data-note="E4">Mi</div>
+                            <div class="emotion-key" data-note="F4">Fa</div>
+                            <div class="emotion-key emotion-black-key" data-note="F#4"></div>
+                            <div class="emotion-key" data-note="G4">So</div>
+                            <div class="emotion-key emotion-black-key" data-note="G#4"></div>
+                            <div class="emotion-key" data-note="A4">La</div>
+                            <div class="emotion-key emotion-black-key" data-note="A#4"></div>
+                            <div class="emotion-key" data-note="B4">Si</div>
+                            
+                            <div class="emotion-key" data-note="C5" style="font-size: 10px;">Do<br>高</div>
+                            <div class="emotion-key emotion-black-key" data-note="C#5"></div>
+                            <div class="emotion-key" data-note="D5" style="font-size: 10px;">Re<br>高</div>
+                            <div class="emotion-key emotion-black-key" data-note="D#5"></div>
+                            <div class="emotion-key" data-note="E5" style="font-size: 10px;">Mi<br>高</div>
+                            <div class="emotion-key" data-note="F5" style="font-size: 10px;">Fa<br>高</div>
+                            <div class="emotion-key emotion-black-key" data-note="F#5"></div>
+                            <div class="emotion-key" data-note="G5" style="font-size: 10px;">So<br>高</div>
+                        </div>
+
+                        <div class="control-group">
+                            <button class="exercise-btn" id="playEmotionMusic" disabled>🎵 播放情绪音乐</button>
+                            <button class="exercise-btn" id="showKeyGuide" disabled>💡 显示琴键提示</button>
+                            <button class="exercise-btn" id="hideKeyGuide" disabled>🚫 隐藏提示</button>
+                            <button class="exercise-btn" id="stopMusic">⏹️ 停止</button>
+                        </div>
+
+                        <div class="emotion-diary">
+                            <h3>💝 我的情绪日记</h3>
+                            <div id="diaryEntries">
+                                <p style="text-align: center; color: #666;">开始记录你的情绪之旅吧！</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 设置页面 -->
+            <div class="page" id="settings-page">
+                <div class="settings-container">
+                    <!-- MIDI设置区域 -->
+                    <div class="settings-section midi-section">
+                        <h3>🎹 MIDI设备连接</h3>
+                        
+                        <div class="midi-status" id="midi-status">
+                            <span id="midi-status-icon">⚪</span>
+                            <span id="midi-status-text">正在检测MIDI支持...</span>
+                        </div>
+
+                        <div class="midi-indicators">
+                            <div class="midi-indicator">
+                                <div class="indicator-light" id="midi-input-light"></div>
+                                <span>MIDI输入</span>
+                            </div>
+                            <div class="midi-indicator">
+                                <div class="indicator-light" id="note-on-light"></div>
+                                <span>音符按下</span>
+                            </div>
+                            <div class="midi-indicator">
+                                <div class="indicator-light" id="note-off-light"></div>
+                                <span>音符释放</span>
+                            </div>
+                        </div>
+
+                        <div class="midi-controls">
+                            <button class="midi-btn" id="midi-connect-btn" onclick="toggleMIDIConnection()">🔌 连接MIDI</button>
+                            <button class="midi-btn" id="midi-refresh-btn" onclick="refreshMIDIDevices()">🔄 刷新设备</button>
+                            <button class="midi-btn" id="midi-test-btn" onclick="testMIDI()">🎵 测试连接</button>
+                        </div>
+
+                        <div class="volume-row">
+                            <div class="volume-label">连接延迟</div>
+                            <input type="range" class="volume-slider" id="midi-latency" min="0" max="100" value="0" style="background: rgba(255,255,255,0.2);">
+                            <div class="volume-value" id="latency-value">0ms</div>
+                        </div>
+                    </div>
+
+                    <div class="settings-section">
+                        <h3>🔊 音量控制</h3>
+                        <div class="volume-row">
+                            <div class="volume-label">主音量</div>
+                            <input type="range" class="volume-slider" id="master-volume" min="0" max="100" value="70">
+                            <div class="volume-value" id="master-volume-value">70%</div>
+                        </div>
+                        <div class="volume-row">
+                            <div class="volume-label">钢琴音量</div>
+                            <input type="range" class="volume-slider" id="piano-volume" min="0" max="100" value="80">
+                            <div class="volume-value" id="piano-volume-value">80%</div>
+                        </div>
+                    </div>
+
+                    <div class="settings-section">
+                        <h3>🎵 音色设置</h3>
+                        <div class="volume-row">
+                            <div class="volume-label">音色温暖度</div>
+                            <input type="range" class="volume-slider" id="warmth-level" min="0" max="100" value="60">
+                            <div class="volume-value" id="warmth-value">60%</div>
+                        </div>
+                    </div>
+
+                    <div class="settings-section">
+                        <h3>🎛️ 显示设置</h3>
+                        <div class="setting-row">
+                            <span>显示音符名称</span>
+                            <div class="toggle active" id="note-names-toggle"></div>
+                        </div>
+                        <div class="setting-row">
+                            <span>启用按键提示</span>
+                            <div class="toggle active" id="key-hints-toggle"></div>
+                        </div>
+                        <div class="setting-row">
+                            <span>练习完成音效</span>
+                            <div class="toggle active" id="completion-sound-toggle"></div>
+                        </div>
+                        <div class="setting-row">
+                            <span>MIDI输入优先</span>
+                            <div class="toggle active" id="midi-priority-toggle"></div>
+                        </div>
+                    </div>
+
+                    <div class="settings-section">
+                        <h3>ℹ️ 系统信息</h3>
+                        <div class="setting-row">
+                            <span>版本</span>
+                            <span>v6.0 - MIDI增强版</span>
+                        </div>
+                        <div class="setting-row">
+                            <span>浏览器支持</span>
+                            <span id="browser-support">✅ 良好</span>
+                        </div>
+                        <div class="setting-row">
+                            <span>音频状态</span>
+                            <span id="audio-status">✅ 就绪</span>
+                        </div>
+                        <div class="setting-row">
+                            <span>MIDI支持</span>
+                            <span id="midi-support-status">检测中...</span>
                         </div>
                     </div>
                 </div>
@@ -622,45 +1212,129 @@
         </div>
     </div>
 
-    <!-- 底部链接 -->
-    <div class="footer-links" id="footerLinks">
-        <h3>🔗 联系方式 & 更多项目</h3>
-        <div class="social-links">
-            <a href="https://github.com/yourusername" class="social-link" target="_blank">
-                <span>📁</span> GitHub
-            </a>
-            <a href="mailto:your.email@example.com" class="social-link">
-                <span>📧</span> 邮箱联系
-            </a>
-            <a href="https://your-blog.com" class="social-link" target="_blank">
-                <span>📝</span> 技术博客
-            </a>
-            <a href="https://linkedin.com/in/yourprofile" class="social-link" target="_blank">
-                <span>💼</span> LinkedIn
-            </a>
-        </div>
-        <div style="margin-top: 20px; font-size: 14px; color: #64748b;">
-            <p>© 2024 个人作品展示 | 基于现代Web技术开发</p>
-            <p>技术栈：HTML5 + CSS3 + JavaScript ES6+ + Web Audio API + Web MIDI API</p>
+    <!-- 虚拟朋友 -->
+    <div class="virtual-friend" id="virtualFriend" style="display: none;">🐰</div>
+    <div class="friend-message" id="friendMessage">
+        <p>你好！我是你的音乐小伙伴，有什么心情想要分享吗？</p>
+    </div>
+
+    <!-- 胜利弹窗 -->
+    <div class="victory-overlay" id="victoryOverlay">
+        <div class="victory-content">
+            <div class="victory-emoji">🎉</div>
+            <div class="victory-title">恭喜完成！</div>
+            <div class="victory-message" id="victoryMessage">你成功完成了这次练习！</div>
+            <button class="victory-btn" onclick="continueExercise()">继续练习</button>
+            <button class="victory-btn" onclick="closeVictory()">返回菜单</button>
         </div>
     </div>
 
     <script>
-        function enterApp() {
-            document.getElementById('personalHeader').style.display = 'none';
-            document.getElementById('projectIntro').style.display = 'none';
-            document.getElementById('footerLinks').style.display = 'none';
-            document.getElementById('loginContainer').style.display = 'flex';
-        }
+        // 全局变量
+        let audioContext, currentPage = 'staff', scrollPositions = { staff: 0, exercise: 0 };
+        let activeNotes = {}, currentNoteColor = null, gainNodes = {};
+        let masterVolume = 0.7, pianoVolume = 0.8, warmthLevel = 0.6;
+        
+        // MIDI相关变量
+        let midiAccess = null, midiEnabled = false, midiDevices = new Map();
+        let midiLatency = 0, connectedInputs = new Set(), lastNoteTime = 0;
+        
+        // 练习系统变量
+        let currentExercise = 'metronome', isMetronomeRunning = false, metronomeInterval;
+        let currentBPM = 60, currentBeat = 1, maxBeat = 4;
+        let scaleSequence = [], currentNoteIndex = 0, isScaleActive = false;
+        let correctCount = 0, totalCount = 0, currentInterval = null;
+        let intervalStats = { correct: 0, total: 0 }, currentScale = 'C大调';
+        
+        // 情绪系统变量
+        let currentEmotion = null, currentOscillators = [];
+        
+        // 配置数据
+        const TOTAL_KEYS = 88, START_NOTE = 21;
+        
+        const NOTE_COLORS = {
+            0: { color: '#ef4444', bg: '#fef2f2', shadow: 'rgba(239, 68, 68, 0.3)' },
+            2: { color: '#f97316', bg: '#fff7ed', shadow: 'rgba(249, 115, 22, 0.3)' },
+            4: { color: '#eab308', bg: '#fefce8', shadow: 'rgba(234, 179, 8, 0.3)' },
+            5: { color: '#22c55e', bg: '#f0fdf4', shadow: 'rgba(34, 197, 94, 0.3)' },
+            7: { color: '#06b6d4', bg: '#ecfeff', shadow: 'rgba(6, 182, 212, 0.3)' },
+            9: { color: '#2563eb', bg: '#eff6ff', shadow: 'rgba(37, 99, 235, 0.3)' },
+            11: { color: '#8b5cf6', bg: '#f5f3ff', shadow: 'rgba(139, 92, 246, 0.3)' }
+        };
+        
+        const JIANPU_MAP = { 0: '1', 2: '2', 4: '3', 5: '4', 7: '5', 9: '6', 11: '7', 1: '#1', 3: '#2', 6: '#4', 8: '#5', 10: '#6' };
+        const SOLFEGE_MAP = { 0: 'do', 2: 're', 4: 'mi', 5: 'fa', 7: 'sol', 9: 'la', 11: 'si', 1: 'do#', 3: 're#', 6: 'fa#', 8: 'sol#', 10: 'la#' };
+        
+        const MINI_STAFF_POSITIONS = {
+            108: -35, 107: -30, 105: -25, 104: -23, 103: -20, 101: -15, 100: -10,
+            98: -5, 96: 0, 95: 2, 93: 5, 91: 10, 89: 15, 88: 17, 86: 20, 84: 25, 83: 27, 81: 30, 79: 35,
+            77: 5, 76: 10, 74: 15, 72: 20, 71: 25, 69: 30, 67: 35, 65: 40, 64: 45,
+            62: 50, 60: 55, 59: 57, 57: 60, 55: 65, 53: 67, 52: 70, 50: 75, 48: 77, 47: 80, 45: 85, 43: 87, 41: 90, 40: 95, 38: 97, 36: 100,
+            35: 105, 33: 107, 31: 110, 29: 115, 28: 117, 26: 120, 24: 125, 23: 127, 21: 130
+        };
 
-        function backToHome() {
-            document.getElementById('personalHeader').style.display = 'block';
-            document.getElementById('projectIntro').style.display = 'block';
-            document.getElementById('footerLinks').style.display = 'block';
-            document.getElementById('loginContainer').style.display = 'none';
-            document.getElementById('mainApp').style.display = 'none';
-        }
+        const scales = {
+            'C大调': [60, 62, 64, 65, 67, 69, 71, 72],
+            'G大调': [67, 69, 71, 72, 74, 76, 78, 79],
+            'D大调': [62, 64, 66, 67, 69, 71, 73, 74],
+            'F大调': [65, 67, 69, 70, 72, 74, 76, 77],
+            'a小调': [57, 59, 60, 62, 64, 65, 67, 69],
+            'e小调': [64, 66, 67, 69, 71, 72, 74, 76],
+            'd小调': [62, 64, 65, 67, 69, 70, 72, 74],
+            'g小调': [67, 69, 70, 72, 74, 75, 77, 79]
+        };
+        
+        const intervals = [
+            { name: "纯一度", semitones: 0 }, { name: "小二度", semitones: 1 }, { name: "大二度", semitones: 2 },
+            { name: "小三度", semitones: 3 }, { name: "大三度", semitones: 4 }, { name: "纯四度", semitones: 5 },
+            { name: "纯五度", semitones: 7 }, { name: "纯八度", semitones: 12 }
+        ];
 
+        const emotions = {
+            happy: {
+                name: '开心', color: '#FFD700', emoji: '😊',
+                message: '太棒了！让我们一起弹奏欢乐颂吧！',
+                melody: [329.63, 329.63, 349.23, 392.00, 392.00, 349.23, 329.63, 293.66, 261.63, 261.63, 293.66, 329.63, 329.63, 293.66, 293.66],
+                keys: ['E4', 'E4', 'F4', 'G4', 'G4', 'F4', 'E4', 'D4', 'C4', 'C4', 'D4', 'E4', 'E4', 'D4', 'D4'],
+                songName: '欢乐颂', tempo: 400
+            },
+            sad: {
+                name: '难过', color: '#4682B4', emoji: '😢',
+                message: '没关系，每个人都会有难过的时候。这首《雨滴》陪伴你。',
+                melody: [220.00, 196.00, 174.61, 164.81, 146.83, 130.81, 146.83, 164.81],
+                keys: ['A3', 'G3', 'F3', 'E3', 'D3', 'C3', 'D3', 'E3'],
+                songName: '雨滴', tempo: 600
+            },
+            calm: {
+                name: '平静', color: '#98FB98', emoji: '😌',
+                message: '平静的心境就像清澈的湖水，来弹奏《静夜思》吧！',
+                melody: [261.63, 293.66, 329.63, 349.23, 392.00, 440.00, 392.00, 349.23, 329.63, 293.66, 261.63],
+                keys: ['C4', 'D4', 'E4', 'F4', 'G4', 'A4', 'G4', 'F4', 'E4', 'D4', 'C4'],
+                songName: '静夜思', tempo: 500
+            },
+            excited: {
+                name: '兴奋', color: '#FF6347', emoji: '🤩',
+                message: '哇！你的兴奋让我也充满了活力！一起弹《小星星》！',
+                melody: [261.63, 261.63, 392.00, 392.00, 440.00, 440.00, 392.00, 349.23, 349.23, 329.63, 329.63, 293.66, 293.66, 261.63],
+                keys: ['C4', 'C4', 'G4', 'G4', 'A4', 'A4', 'G4', 'F4', 'F4', 'E4', 'E4', 'D4', 'D4', 'C4'],
+                songName: '小星星', tempo: 350
+            },
+            angry: {
+                name: '生气', color: '#DC143C', emoji: '😠',
+                message: '生气是正常的情绪，深呼吸，让《雷雨》的音乐帮你平静下来。',
+                melody: [130.81, 146.83, 164.81, 174.61, 196.00, 174.61, 164.81, 146.83, 130.81],
+                keys: ['C3', 'D3', 'E3', 'F3', 'G3', 'F3', 'E3', 'D3', 'C3'],
+                songName: '雷雨', tempo: 300
+            }
+        };
+
+        const noteFrequencies = {
+            'C3': 130.81, 'C#3': 138.59, 'D3': 146.83, 'D#3': 155.56, 'E3': 164.81, 'F3': 174.61, 'F#3': 185.00, 'G3': 196.00, 'G#3': 207.65, 'A3': 220.00, 'A#3': 233.08, 'B3': 246.94,
+            'C4': 261.63, 'C#4': 277.18, 'D4': 293.66, 'D#4': 311.13, 'E4': 329.63, 'F4': 349.23, 'F#4': 369.99, 'G4': 392.00, 'G#4': 415.30, 'A4': 440.00, 'A#4': 466.16, 'B4': 493.88,
+            'C5': 523.25, 'C#5': 554.37, 'D5': 587.33, 'D#5': 622.25, 'E5': 659.25, 'F5': 698.46, 'F#5': 739.99, 'G5': 783.99
+        };
+
+        // 登录处理
         function handleLogin(event) {
             event.preventDefault();
             const username = document.getElementById('username').value;
@@ -669,8 +1343,7 @@
             if (username === 'admin' && password === 'admin') {
                 document.getElementById('loginContainer').style.display = 'none';
                 document.getElementById('mainApp').style.display = 'block';
-                // 这里可以加载完整的钢琴系统功能
-                alert('登录成功！这是演示版本，完整功能请查看源代码。');
+                initApp();
             } else {
                 document.getElementById('errorMessage').style.display = 'block';
                 setTimeout(() => {
@@ -680,32 +1353,1276 @@
         }
 
         function logout() {
-            backToHome();
+            document.getElementById('loginContainer').style.display = 'flex';
+            document.getElementById('mainApp').style.display = 'none';
             document.getElementById('username').value = '';
             document.getElementById('password').value = '';
         }
 
-        // 页面导航功能
-        document.querySelectorAll('.nav-tab').forEach(tab => {
-            tab.addEventListener('click', function() {
-                alert('这是演示版本，完整功能请下载源代码体验！');
+        // 主要初始化函数
+        function initApp() {
+            initAudio();
+            initNavigation();
+            initPiano();
+            initExercises();
+            initSettings();
+            initEmotion();
+            initMIDI();
+            centerKeyboard();
+        }
+
+        // 工具函数
+        function initAudio() {
+            try {
+                audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                document.body.addEventListener('click', () => {
+                    if (audioContext && audioContext.state !== "running") audioContext.resume();
+                }, { once: true });
+                document.getElementById('audio-status').textContent = '✅ 就绪';
+            } catch (error) {
+                console.error('音频初始化异常:', error);
+                document.getElementById('audio-status').textContent = '❌ 错误';
+            }
+        }
+
+        function initNavigation() {
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.addEventListener('click', function() {
+                    const targetPage = this.dataset.page;
+                    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                    document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+                    document.getElementById(targetPage + '-page').classList.add('active');
+                    currentPage = targetPage;
+                    document.getElementById('virtualFriend').style.display = targetPage === 'emotion' ? 'flex' : 'none';
+                });
             });
+        }
+
+        // MIDI系统 (简化版)
+        async function initMIDI() {
+            try {
+                if (navigator.requestMIDIAccess) {
+                    document.getElementById('midi-support-status').textContent = '✅ 支持';
+                    midiAccess = await navigator.requestMIDIAccess();
+                    midiAccess.onstatechange = updateMIDIStatus;
+                    updateMIDIStatus();
+                } else {
+                    document.getElementById('midi-support-status').textContent = '❌ 不支持';
+                    updateMIDIStatus('unsupported');
+                }
+            } catch (error) {
+                console.error('MIDI初始化失败:', error);
+                document.getElementById('midi-support-status').textContent = '❌ 初始化失败';
+                updateMIDIStatus('error');
+            }
+        }
+
+        function updateMIDIStatus(status = 'auto') {
+            const statusElement = document.getElementById('midi-status');
+            const iconElement = document.getElementById('midi-status-icon');
+            const textElement = document.getElementById('midi-status-text');
+            
+            if (status === 'unsupported') {
+                statusElement.className = 'midi-status disconnected';
+                iconElement.textContent = '❌';
+                textElement.textContent = '浏览器不支持Web MIDI API';
+                return;
+            }
+            
+            if (!midiAccess) {
+                statusElement.className = 'midi-status disconnected';
+                iconElement.textContent = '⚪';
+                textElement.textContent = '正在初始化MIDI...';
+                return;
+            }
+            
+            const connectedCount = connectedInputs.size;
+            const availableCount = Array.from(midiAccess.inputs.values()).filter(input => input.state === 'connected').length;
+            
+            if (connectedCount > 0) {
+                statusElement.className = 'midi-status connected';
+                iconElement.textContent = '🎹';
+                textElement.textContent = `已连接 ${connectedCount} 个MIDI设备`;
+                midiEnabled = true;
+                document.getElementById('midi-connect-btn').textContent = '🔌 断开MIDI';
+                document.getElementById('midi-connect-btn').classList.add('connected');
+            } else if (availableCount > 0) {
+                statusElement.className = 'midi-status disconnected';
+                iconElement.textContent = '🔌';
+                textElement.textContent = `发现 ${availableCount} 个MIDI设备，点击连接`;
+                midiEnabled = false;
+                document.getElementById('midi-connect-btn').textContent = '🔌 连接MIDI';
+                document.getElementById('midi-connect-btn').classList.remove('connected');
+            } else {
+                statusElement.className = 'midi-status disconnected';
+                iconElement.textContent = '🔍';
+                textElement.textContent = '未发现MIDI设备，请连接设备后刷新';
+                midiEnabled = false;
+            }
+        }
+
+        function handleMIDIMessage(event) {
+            const [status, note, velocity] = event.data;
+            const command = status >> 4;
+            
+            setTimeout(() => {
+                if (command === 9 && velocity > 0) {
+                    handleMIDINoteOn(note, velocity);
+                } else if (command === 8 || (command === 9 && velocity === 0)) {
+                    handleMIDINoteOff(note);
+                }
+            }, midiLatency);
+        }
+
+        function handleMIDINoteOn(note, velocity) {
+            showIndicator('midi-input-light');
+            showIndicator('note-on-light');
+            
+            const key = document.querySelector(`[data-note="${note}"]`);
+            if (key) {
+                key.classList.add('active');
+                updateNotationDisplay(note);
+                if (currentPage === 'exercise' && currentExercise === 'scale') checkScaleNote(note);
+            }
+            startPlayingNote(note);
+            lastNoteTime = Date.now();
+        }
+
+        function handleMIDINoteOff(note) {
+            showIndicator('note-off-light');
+            const key = document.querySelector(`[data-note="${note}"]`);
+            if (key) {
+                key.classList.remove('active');
+                if (currentPage === 'staff') clearNotationDisplay();
+            }
+            stopPlayingNote(note);
+        }
+
+        function showIndicator(indicatorId) {
+            const indicator = document.getElementById(indicatorId);
+            if (indicator) {
+                indicator.classList.add('active');
+                setTimeout(() => indicator.classList.remove('active'), 100);
+            }
+        }
+
+        function toggleMIDIConnection() {
+            if (!midiAccess) { initMIDI(); return; }
+            
+            const inputs = Array.from(midiAccess.inputs.values()).filter(input => input.state === 'connected');
+            
+            if (connectedInputs.size > 0) {
+                inputs.forEach(input => {
+                    if (connectedInputs.has(input.id)) {
+                        input.onmidimessage = null;
+                        connectedInputs.delete(input.id);
+                    }
+                });
+            } else {
+                inputs.forEach(input => {
+                    input.onmidimessage = handleMIDIMessage;
+                    connectedInputs.add(input.id);
+                });
+            }
+            updateMIDIStatus();
+        }
+
+        function refreshMIDIDevices() {
+            if (midiAccess) updateMIDIStatus();
+            else initMIDI();
+        }
+
+        function testMIDI() {
+            if (connectedInputs.size === 0) {
+                alert('请先连接MIDI设备');
+                return;
+            }
+            alert('请按下MIDI键盘上的任意键进行测试');
+        }
+
+        // 钢琴功能
+        function initPiano() {
+            createKeyboard('piano-keyboard-1');
+            createKeyboard('piano-keyboard-2');
+            initScrollButtons();
+        }
+
+        function createKeyboard(containerId) {
+            const keyboard = document.getElementById(containerId);
+            const whiteKeyWidth = 45;
+            let whiteKeyCount = 0;
+            
+            for (let i = START_NOTE; i < START_NOTE + TOTAL_KEYS; i++) {
+                if (isWhiteKey(i)) whiteKeyCount++;
+            }
+            keyboard.style.width = `${whiteKeyCount * whiteKeyWidth}px`;
+            
+            // 创建白键
+            for (let i = START_NOTE; i < START_NOTE + TOTAL_KEYS; i++) {
+                if (isWhiteKey(i)) keyboard.appendChild(createKey(i, true));
+            }
+            
+            // 创建黑键
+            for (let i = START_NOTE; i < START_NOTE + TOTAL_KEYS; i++) {
+                if (!isWhiteKey(i)) {
+                    const key = createKey(i, false);
+                    key.style.left = `${getWhiteKeyIndex(i) * whiteKeyWidth - 13}px`;
+                    keyboard.appendChild(key);
+                }
+            }
+        }
+
+        function getWhiteKeyIndex(midiNumber) {
+            let count = 0;
+            for (let i = START_NOTE; i < midiNumber; i++) {
+                if (isWhiteKey(i)) count++;
+            }
+            return count;
+        }
+
+        function createKey(midiNote, isWhite) {
+            const key = document.createElement('div');
+            key.className = isWhite ? 'white-key' : 'black-key';
+            key.dataset.note = midiNote;
+            
+            const noteInfo = getChineseNoteInfo(midiNote);
+            const noteName = document.createElement('div');
+            noteName.className = 'note-name';
+            noteName.textContent = noteInfo.displayName;
+            key.appendChild(noteName);
+            
+            ['mousedown', 'touchstart'].forEach(event => {
+                key.addEventListener(event, (e) => {
+                    e.preventDefault();
+                    startPlayingNote(midiNote);
+                    key.classList.add('active');
+                    updateNotationDisplay(midiNote);
+                    if (currentPage === 'exercise' && currentExercise === 'scale') checkScaleNote(midiNote);
+                });
+            });
+            
+            ['mouseup', 'mouseleave', 'touchend'].forEach(event => {
+                key.addEventListener(event, (e) => {
+                    e.preventDefault();
+                    stopPlayingNote(midiNote);
+                    key.classList.remove('active');
+                    if (currentPage === 'staff') clearNotationDisplay();
+                });
+            });
+            
+            return key;
+        }
+
+        function isWhiteKey(midiNumber) {
+            const noteIndex = midiNumber % 12;
+            return [0, 2, 4, 5, 7, 9, 11].includes(noteIndex);
+        }
+
+        function getChineseNoteInfo(midiNumber) {
+            const noteNames = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+            const noteIndex = midiNumber % 12;
+            const noteName = noteNames[noteIndex];
+            const baseNote = noteName.charAt(0);
+            const hasSharp = noteName.includes('#');
+            const sharpSymbol = hasSharp ? '♯' : '';
+            
+            let displayName = '';
+            
+            if (midiNumber >= 21 && midiNumber <= 35) {
+                displayName = baseNote + sharpSymbol;
+            } else if (midiNumber >= 36 && midiNumber <= 59) {
+                displayName = baseNote.toLowerCase() + sharpSymbol;
+            } else if (midiNumber >= 60 && midiNumber <= 71) {
+                displayName = midiNumber === 60 ? '中央C' : baseNote.toLowerCase() + sharpSymbol + '¹';
+            } else if (midiNumber >= 72 && midiNumber <= 83) {
+                displayName = baseNote.toLowerCase() + sharpSymbol + '²';
+            } else if (midiNumber >= 84 && midiNumber <= 95) {
+                displayName = baseNote.toLowerCase() + sharpSymbol + '³';
+            } else if (midiNumber >= 96 && midiNumber <= 107) {
+                displayName = baseNote.toLowerCase() + sharpSymbol + '⁴';
+            } else {
+                displayName = baseNote.toLowerCase() + sharpSymbol + '⁵';
+            }
+            
+            return { name: noteName, displayName: displayName };
+        }
+
+        function getNoteColor(midiNote) {
+            const noteIndex = midiNote % 12;
+            return NOTE_COLORS[noteIndex] || NOTE_COLORS[0];
+        }
+
+        // 音符显示更新
+        function updateNotationDisplay(midiNote) {
+            const noteIndex = midiNote % 12;
+            const noteInfo = getChineseNoteInfo(midiNote);
+            const colors = getNoteColor(midiNote);
+            
+            currentNoteColor = colors.color;
+            document.documentElement.style.setProperty('--current-note-color', colors.color);
+            document.documentElement.style.setProperty('--current-note-bg', colors.bg);
+            document.documentElement.style.setProperty('--current-note-shadow', colors.shadow);
+            
+            updateMiniStaff(midiNote);
+            
+            const jianpuNumber = JIANPU_MAP[noteIndex] || '-';
+            document.getElementById('jianpu-number').textContent = jianpuNumber;
+            
+            const jianpuDot = document.getElementById('jianpu-dot');
+            jianpuDot.classList.toggle('show', midiNote >= 72);
+            
+            document.getElementById('note-name-display').textContent = noteInfo.name;
+            document.getElementById('solfege-display').textContent = SOLFEGE_MAP[noteIndex] || '-';
+            
+            document.querySelectorAll('.notation-section').forEach(section => section.classList.add('active'));
+        }
+
+        function updateMiniStaff(midiNote) {
+            const miniNote = document.getElementById('mini-note');
+            const miniStaff = document.getElementById('mini-staff');
+            
+            document.querySelectorAll('.mini-ledger-line').forEach(line => line.remove());
+            
+            const position = MINI_STAFF_POSITIONS[midiNote];
+            
+            if (position !== undefined) {
+                miniNote.style.top = position + 'px';
+                miniNote.classList.add('active');
+                
+                // 添加加线
+                if (midiNote === 60) {
+                    const ledgerLine = document.createElement('div');
+                    ledgerLine.className = 'mini-ledger-line';
+                    ledgerLine.style.top = '58px';
+                    miniStaff.appendChild(ledgerLine);
+                }
+                
+                if (position > 55) {
+                    let linePosition = 68;
+                    while (linePosition <= position + 3) {
+                        const ledgerLine = document.createElement('div');
+                        ledgerLine.className = 'mini-ledger-line';
+                        ledgerLine.style.top = linePosition + 'px';
+                        miniStaff.appendChild(ledgerLine);
+                        linePosition += 10;
+                    }
+                }
+                
+                if (position < 5) {
+                    let linePosition = 0;
+                    while (linePosition >= position - 3) {
+                        const ledgerLine = document.createElement('div');
+                        ledgerLine.className = 'mini-ledger-line';
+                        ledgerLine.style.top = linePosition + 'px';
+                        miniStaff.appendChild(ledgerLine);
+                        linePosition -= 10;
+                    }
+                }
+            }
+        }
+
+        function clearNotationDisplay() {
+            document.getElementById('mini-note').classList.remove('active');
+            document.querySelectorAll('.mini-ledger-line').forEach(line => line.remove());
+            
+            document.getElementById('jianpu-number').textContent = '-';
+            document.getElementById('jianpu-dot').classList.remove('show');
+            document.getElementById('note-name-display').textContent = '-';
+            document.getElementById('solfege-display').textContent = '-';
+            
+            document.querySelectorAll('.notation-section').forEach(section => section.classList.remove('active'));
+            
+            currentNoteColor = null;
+            document.documentElement.style.removeProperty('--current-note-color');
+            document.documentElement.style.removeProperty('--current-note-bg');
+            document.documentElement.style.removeProperty('--current-note-shadow');
+        }
+
+        // 音频播放
+        function startPlayingNote(midiNumber) {
+            if (activeNotes[midiNumber] || !audioContext) return;
+            
+            try {
+                activeNotes[midiNumber] = true;
+                if (audioContext.state !== "running") audioContext.resume();
+                playSimpleTone(midiNumber);
+            } catch (error) {
+                console.warn('音符播放失败:', error);
+            }
+        }
+
+        function stopPlayingNote(midiNumber) {
+            if (!activeNotes[midiNumber]) return;
+            activeNotes[midiNumber] = false;
+            
+            if (gainNodes[midiNumber]) {
+                try {
+                    const now = audioContext.currentTime;
+                    gainNodes[midiNumber].gain.setTargetAtTime(0, now, 0.1);
+                    setTimeout(() => delete gainNodes[midiNumber], 200);
+                } catch (e) {
+                    delete gainNodes[midiNumber];
+                }
+            }
+        }
+
+        function playSimpleTone(midiNumber) {
+            const frequency = 440 * Math.pow(2, (midiNumber - 69) / 12);
+            
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.type = 'triangle';
+            oscillator.frequency.setValueAtTime(frequency, audioContext.currentTime);
+            
+            const velocity = pianoVolume * masterVolume * 0.3;
+            gainNode.gain.setValueAtTime(velocity, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + 1.5);
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + 1.5);
+            
+            gainNodes[midiNumber] = gainNode;
+            oscillator.addEventListener('ended', () => delete gainNodes[midiNumber]);
+        }
+
+        // 键盘滚动
+        function initScrollButtons() {
+            ['1', '2'].forEach(num => {
+                document.getElementById(`scroll-left-${num}`).addEventListener('click', () => scrollKeyboard(num, -250));
+                document.getElementById(`scroll-right-${num}`).addEventListener('click', () => scrollKeyboard(num, 250));
+            });
+        }
+
+        function scrollKeyboard(keyboardNum, direction) {
+            const keyboard = document.getElementById(`piano-keyboard-${keyboardNum}`);
+            const container = keyboard.parentElement;
+            const maxScroll = keyboard.offsetWidth - container.offsetWidth;
+            
+            const pageKey = keyboardNum === '1' ? 'staff' : 'exercise';
+            scrollPositions[pageKey] = Math.max(0, Math.min(maxScroll, scrollPositions[pageKey] + direction));
+            keyboard.style.transform = `translateX(-${scrollPositions[pageKey]}px)`;
+        }
+
+        function centerKeyboard() {
+            ['1', '2'].forEach(num => {
+                const keyboard = document.getElementById(`piano-keyboard-${num}`);
+                const container = keyboard.parentElement;
+                const middleCPosition = getWhiteKeyIndex(60) * 45;
+                const centerPosition = Math.max(0, middleCPosition - container.offsetWidth / 2);
+                
+                const pageKey = num === '1' ? 'staff' : 'exercise';
+                scrollPositions[pageKey] = centerPosition;
+                keyboard.style.transform = `translateX(-${centerPosition}px)`;
+            });
+        }
+
+        // 练习系统
+        function initExercises() {
+            document.querySelectorAll('.exercise-tab').forEach(tab => {
+                tab.addEventListener('click', function() {
+                    document.querySelectorAll('.exercise-tab').forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const exercise = this.dataset.exercise;
+                    currentExercise = exercise;
+                    loadExercise(exercise);
+                });
+            });
+            loadExercise('metronome');
+        }
+
+        function loadExercise(exercise) {
+            const content = document.getElementById('exercise-content');
+            stopAllExercises();
+            
+            switch(exercise) {
+                case 'metronome':
+                    content.innerHTML = getMetronomeHTML();
+                    initMetronome();
+                    break;
+                case 'scale':
+                    content.innerHTML = getScaleHTML();
+                    initScale();
+                    break;
+                case 'interval':
+                    content.innerHTML = getIntervalHTML();
+                    initInterval();
+                    break;
+            }
+        }
+
+        function getMetronomeHTML() {
+            return `
+                <div class="exercise-title">🥁 简单节拍器</div>
+                <div class="exercise-description">帮助你保持稳定的节拍，养成良好的节奏感</div>
+                
+                <div class="practice-container">
+                    <div class="indicator" id="beat-indicator">♪</div>
+                    <div class="large-display" id="bpm-display">${currentBPM}</div>
+                    <div class="control-group">
+                        <button class="control-btn" onclick="changeBPM(-5)">-</button>
+                        <span style="margin: 0 16px; font-weight: 500;">BPM</span>
+                        <button class="control-btn" onclick="changeBPM(5)">+</button>
+                    </div>
+                    <button class="exercise-btn" id="metronome-btn" onclick="toggleMetronome()">开始</button>
+                </div>
+            `;
+        }
+
+        function getScaleHTML() {
+            return `
+                <div class="exercise-title">🎼 音阶练习</div>
+                <div class="exercise-description">选择音阶类型，按顺序弹奏完整音阶</div>
+                
+                <div style="margin: 20px 0;">
+                    <select id="scale-select" style="padding: 8px 16px; border-radius: 8px; border: 1px solid var(--border-color);">
+                        ${Object.keys(scales).map(scale => `<option value="${scale}">${scale}</option>`).join('')}
+                    </select>
+                </div>
+                
+                <div class="note-sequence" id="scale-sequence"></div>
+                
+                <div class="control-group">
+                    <button class="control-btn" onclick="startScale()">开始练习</button>
+                    <button class="control-btn" onclick="stopScale()">停止</button>
+                    <button class="control-btn" onclick="playScaleDemo()">🔊 播放示范</button>
+                    <button class="control-btn" onclick="resetScale()">重置</button>
+                </div>
+                
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <div class="stat-value" id="scale-correct">0</div>
+                        <div class="stat-label">正确</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="scale-total">8</div>
+                        <div class="stat-label">总音符</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="scale-progress">0%</div>
+                        <div class="stat-label">进度</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function getIntervalHTML() {
+            return `
+                <div class="exercise-title">🎵 音程听辨练习</div>
+                <div class="exercise-description">听音程，选择正确答案</div>
+                
+                <div class="practice-container">
+                    <div class="interval-display" id="interval-display">点击"开始练习"听音程</div>
+                    <div class="interval-buttons" id="interval-buttons"></div>
+                </div>
+                
+                <div class="control-group">
+                    <button class="control-btn" onclick="startInterval()">开始练习</button>
+                    <button class="control-btn" onclick="playCurrentInterval()">重复播放</button>
+                    <button class="control-btn" onclick="resetIntervalStats()">重置统计</button>
+                </div>
+                
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <div class="stat-value" id="interval-correct">0</div>
+                        <div class="stat-label">正确</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="interval-total">0</div>
+                        <div class="stat-label">总数</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="interval-accuracy">0%</div>
+                        <div class="stat-label">准确率</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // 节拍器功能
+        function initMetronome() {
+            updateBeatIndicator();
+        }
+
+        function changeBPM(change) {
+            currentBPM = Math.max(40, Math.min(200, currentBPM + change));
+            document.getElementById('bpm-display').textContent = currentBPM;
+            
+            if (isMetronomeRunning) {
+                stopMetronome();
+                startMetronome();
+            }
+        }
+
+        function toggleMetronome() {
+            isMetronomeRunning ? stopMetronome() : startMetronome();
+        }
+
+        function startMetronome() {
+            isMetronomeRunning = true;
+            document.getElementById('metronome-btn').textContent = '停止';
+            document.getElementById('metronome-btn').classList.add('active');
+            
+            const interval = 60000 / currentBPM;
+            metronomeInterval = setInterval(() => {
+                playMetronomeTick();
+                updateBeatIndicator();
+                currentBeat = currentBeat >= maxBeat ? 1 : currentBeat + 1;
+            }, interval);
+        }
+
+        function stopMetronome() {
+            isMetronomeRunning = false;
+            const btn = document.getElementById('metronome-btn');
+            if (btn) {
+                btn.textContent = '开始';
+                btn.classList.remove('active');
+            }
+            
+            if (metronomeInterval) clearInterval(metronomeInterval);
+            currentBeat = 1;
+            updateBeatIndicator();
+        }
+
+        function playMetronomeTick() {
+            if (!audioContext) return;
+            
+            try {
+                const oscillator = audioContext.createOscillator();
+                const gainNode = audioContext.createGain();
+                
+                oscillator.connect(gainNode);
+                gainNode.connect(audioContext.destination);
+                
+                oscillator.frequency.setValueAtTime(currentBeat === 1 ? 800 : 600, audioContext.currentTime);
+                oscillator.type = 'square';
+                
+                gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+                gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.1);
+                
+                oscillator.start(audioContext.currentTime);
+                oscillator.stop(audioContext.currentTime + 0.1);
+            } catch (error) {
+                console.warn('节拍器音效播放失败:', error);
+            }
+        }
+
+        function updateBeatIndicator() {
+            const indicator = document.getElementById('beat-indicator');
+            if (indicator) {
+                indicator.classList.remove('active');
+                indicator.textContent = currentBeat;
+                
+                setTimeout(() => indicator.classList.add('active'), 10);
+                setTimeout(() => indicator.classList.remove('active'), 150);
+            }
+        }
+
+        // 音阶练习功能
+        function initScale() {
+            document.getElementById('scale-select').addEventListener('change', function() {
+                currentScale = this.value;
+                newScale();
+            });
+            newScale();
+        }
+
+        function newScale() {
+            scaleSequence = scales[currentScale].slice();
+            currentNoteIndex = 0;
+            correctCount = 0;
+            displayScale();
+            updateScaleStats();
+            updateProgressBar();
+        }
+
+        function displayScale() {
+            const container = document.getElementById('scale-sequence');
+            if (!container) return;
+            
+            container.innerHTML = '';
+            
+            scaleSequence.forEach((note, index) => {
+                const noteElement = document.createElement('div');
+                noteElement.className = 'note-circle';
+                
+                if (index < currentNoteIndex) {
+                    noteElement.classList.add('played');
+                } else if (index === currentNoteIndex) {
+                    noteElement.classList.add('current');
+                }
+                
+                noteElement.textContent = getScaleNoteName(note, index);
+                container.appendChild(noteElement);
+            });
+        }
+
+        function getScaleNoteName(midiNote, index) {
+            const scaleNumbers = ['1', '2', '3', '4', '5', '6', '7', '8'];
+            const noteNames = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+            const noteIndex = midiNote % 12;
+            const octave = Math.floor(midiNote / 12) - 1;
+            
+            return `${scaleNumbers[index]}\n${noteNames[noteIndex]}${octave}`;
+        }
+
+        function startScale() {
+            isScaleActive = true;
+            currentNoteIndex = 0;
+            correctCount = 0;
+            displayScale();
+            updateScaleStats();
+            updateProgressBar();
+        }
+
+        function stopScale() {
+            isScaleActive = false;
+            displayScale();
+        }
+
+        function resetScale() {
+            isScaleActive = false;
+            currentNoteIndex = 0;
+            correctCount = 0;
+            displayScale();
+            updateScaleStats();
+            updateProgressBar();
+        }
+
+        function playScaleDemo() {
+            const notes = scaleSequence;
+            notes.forEach((note, index) => {
+                setTimeout(() => playSimpleNote(note, 0, 0.6), index * 400);
+            });
+        }
+
+        function checkScaleNote(midiNote) {
+            if (!isScaleActive || currentNoteIndex >= scaleSequence.length) return;
+            
+            const expectedNote = scaleSequence[currentNoteIndex];
+            
+            if (midiNote === expectedNote) {
+                correctCount++;
+                currentNoteIndex++;
+                
+                displayScale();
+                updateScaleStats();
+                updateProgressBar();
+                
+                if (currentNoteIndex >= scaleSequence.length) {
+                    setTimeout(() => {
+                        showVictory(`🎉 太棒了！你成功弹奏了完整的${currentScale}！\n准确率：${Math.round((correctCount / scaleSequence.length) * 100)}%`);
+                        playVictorySound();
+                    }, 300);
+                }
+            } else {
+                const noteElements = document.querySelectorAll('.note-circle');
+                if (noteElements[currentNoteIndex]) {
+                    noteElements[currentNoteIndex].classList.add('missed');
+                    setTimeout(() => noteElements[currentNoteIndex].classList.remove('missed'), 800);
+                }
+            }
+        }
+
+        function updateScaleStats() {
+            const correctEl = document.getElementById('scale-correct');
+            const progressEl = document.getElementById('scale-progress');
+            
+            if (correctEl) correctEl.textContent = correctCount;
+            
+            const progress = Math.round((currentNoteIndex / scaleSequence.length) * 100);
+            if (progressEl) progressEl.textContent = progress + '%';
+        }
+
+        function updateProgressBar() {
+            const progressBar = document.getElementById('progress-fill');
+            if (progressBar) {
+                const progress = (currentNoteIndex / scaleSequence.length) * 100;
+                progressBar.style.width = progress + '%';
+            }
+        }
+
+        // 音程练习功能
+        function initInterval() {
+            generateIntervalButtons();
+        }
+
+        function generateIntervalButtons() {
+            const container = document.getElementById('interval-buttons');
+            if (!container) return;
+            
+            container.innerHTML = '';
+            
+            intervals.slice(0, 6).forEach(interval => {
+                const button = document.createElement('button');
+                button.className = 'interval-btn';
+                button.textContent = interval.name;
+                button.onclick = () => selectInterval(interval);
+                container.appendChild(button);
+            });
+        }
+
+        function startInterval() {
+            currentInterval = intervals[Math.floor(Math.random() * 6)];
+            playCurrentInterval();
+            
+            document.querySelectorAll('.interval-btn').forEach(btn => {
+                btn.classList.remove('correct', 'wrong');
+            });
+            
+            const displayEl = document.getElementById('interval-display');
+            if (displayEl) displayEl.textContent = '请选择你听到的音程';
+        }
+
+        function playCurrentInterval() {
+            if (!currentInterval || !audioContext) return;
+            
+            const baseNote = 60;
+            const higherNote = baseNote + currentInterval.semitones;
+            
+            playSimpleNote(baseNote, 0, 0.8);
+            playSimpleNote(higherNote, 0.9, 0.8);
+        }
+
+        function selectInterval(selectedInterval) {
+            if (!currentInterval) return;
+            
+            intervalStats.total++;
+            
+            document.querySelectorAll('.interval-btn').forEach(btn => {
+                btn.classList.remove('correct', 'wrong');
+            });
+            
+            const displayEl = document.getElementById('interval-display');
+            
+            if (selectedInterval.name === currentInterval.name) {
+                intervalStats.correct++;
+                event.target.classList.add('correct');
+                if (displayEl) displayEl.textContent = '✅ 正确！';
+                showVictory(`🎉 太棒了！这确实是${currentInterval.name}！`);
+                playVictorySound();
+            } else {
+                event.target.classList.add('wrong');
+                document.querySelectorAll('.interval-btn').forEach(btn => {
+                    if (btn.textContent === currentInterval.name) {
+                        btn.classList.add('correct');
+                    }
+                });
+                if (displayEl) displayEl.textContent = `❌ 错误！正确答案是：${currentInterval.name}`;
+                showVictory(`正确答案是${currentInterval.name}，继续加油！`, false);
+            }
+            
+            updateIntervalStats();
+            setTimeout(() => startInterval(), 2000);
+        }
+
+        function updateIntervalStats() {
+            const correctEl = document.getElementById('interval-correct');
+            const totalEl = document.getElementById('interval-total');
+            const accuracyEl = document.getElementById('interval-accuracy');
+            
+            if (correctEl) correctEl.textContent = intervalStats.correct;
+            if (totalEl) totalEl.textContent = intervalStats.total;
+            
+            const accuracy = intervalStats.total > 0 ? Math.round((intervalStats.correct / intervalStats.total) * 100) : 0;
+            if (accuracyEl) accuracyEl.textContent = accuracy + '%';
+        }
+
+        function resetIntervalStats() {
+            intervalStats = { correct: 0, total: 0 };
+            updateIntervalStats();
+        }
+
+        function playVictorySound() {
+            if (!audioContext) return;
+            
+            try {
+                const notes = [261.63, 329.63, 392.00];
+                notes.forEach((freq, index) => {
+                    setTimeout(() => {
+                        const oscillator = audioContext.createOscillator();
+                        const gainNode = audioContext.createGain();
+                        
+                        oscillator.connect(gainNode);
+                        gainNode.connect(audioContext.destination);
+                        
+                        oscillator.frequency.setValueAtTime(freq, audioContext.currentTime);
+                        oscillator.type = 'triangle';
+                        
+                        gainNode.gain.setValueAtTime(0.2, audioContext.currentTime);
+                        gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 1);
+                        
+                        oscillator.start(audioContext.currentTime);
+                        oscillator.stop(audioContext.currentTime + 1);
+                    }, index * 100);
+                });
+            } catch (error) {
+                console.warn('胜利音效播放失败:', error);
+            }
+        }
+
+        function stopAllExercises() {
+            if (isMetronomeRunning) stopMetronome();
+            isScaleActive = false;
+        }
+
+        function playSimpleNote(midiNumber, startTime = 0, duration = 1.5) {
+            if (!audioContext) return;
+            
+            const frequency = 440 * Math.pow(2, (midiNumber - 69) / 12);
+            
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.type = 'triangle';
+            oscillator.frequency.setValueAtTime(frequency, audioContext.currentTime + startTime);
+            
+            const velocity = 0.3;
+            gainNode.gain.setValueAtTime(velocity, audioContext.currentTime + startTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + startTime + duration);
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.start(audioContext.currentTime + startTime);
+            oscillator.stop(audioContext.currentTime + startTime + duration);
+            
+            return oscillator;
+        }
+
+        // 情绪系统
+        function initEmotion() {
+            document.querySelectorAll('.emotion-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.emotion-btn').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const emotion = this.dataset.emotion;
+                    currentEmotion = emotion;
+                    
+                    updateEmotionDisplay(emotion);
+                    addDiaryEntry(emotion);
+                    showFriendMessage(emotions[emotion].message);
+                    
+                    document.getElementById('playEmotionMusic').disabled = false;
+                    document.getElementById('showKeyGuide').disabled = false;
+                });
+            });
+
+            document.querySelectorAll('.emotion-key').forEach(key => {
+                key.addEventListener('click', function() {
+                    const note = this.dataset.note;
+                    const frequency = noteFrequencies[note];
+                    
+                    if (frequency) {
+                        this.classList.add('active');
+                        playEmotionNote(frequency, 0.3);
+                        
+                        if (currentEmotion && checkCorrectKey(note, currentEmotion)) {
+                            showFriendMessage(`太棒了！这个音符是《${emotions[currentEmotion].songName}》的一部分！`);
+                        }
+                        
+                        setTimeout(() => this.classList.remove('active'), 200);
+                    }
+                });
+            });
+
+            document.getElementById('playEmotionMusic').addEventListener('click', function() {
+                if (currentEmotion) {
+                    playEmotionMelodyWithGuide(currentEmotion);
+                    showFriendMessage(`正在播放${emotions[currentEmotion].name}的《${emotions[currentEmotion].songName}》`);
+                }
+            });
+
+            document.getElementById('showKeyGuide').addEventListener('click', function() {
+                if (currentEmotion) {
+                    showKeyGuide(currentEmotion);
+                    document.getElementById('hideKeyGuide').disabled = false;
+                }
+            });
+
+            document.getElementById('hideKeyGuide').addEventListener('click', function() {
+                hideKeyGuide();
+                this.disabled = true;
+            });
+
+            document.getElementById('stopMusic').addEventListener('click', stopAllMusic);
+
+            document.getElementById('virtualFriend').addEventListener('click', function() {
+                const messages = ['今天过得怎么样？', '音乐能表达我们内心的声音呢！', '每种情绪都有它的意义哦~'];
+                const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+                showFriendMessage(randomMessage);
+            });
+        }
+
+        function playEmotionNote(frequency, duration = 0.5) {
+            if (!audioContext) return;
+            
+            try {
+                if (audioContext.state !== "running") audioContext.resume();
+                
+                const oscillator = audioContext.createOscillator();
+                const gainNode = audioContext.createGain();
+                
+                oscillator.connect(gainNode);
+                gainNode.connect(audioContext.destination);
+                
+                oscillator.frequency.setValueAtTime(frequency, audioContext.currentTime);
+                oscillator.type = 'sine';
+                
+                gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+                gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + duration);
+                
+                oscillator.start(audioContext.currentTime);
+                oscillator.stop(audioContext.currentTime + duration);
+                
+                return oscillator;
+            } catch (error) {
+                console.warn('情绪音符播放失败:', error);
+            }
+        }
+
+        function showKeyGuide(emotion) {
+            if (!emotions[emotion]) return;
+            
+            document.querySelectorAll('.emotion-key').forEach(key => key.classList.remove('highlight'));
+            
+            const keys = emotions[emotion].keys;
+            keys.forEach(note => {
+                const keyElement = document.querySelector(`#emotionPianoKeys [data-note="${note}"]`);
+                if (keyElement) keyElement.classList.add('highlight');
+            });
+            
+            showFriendMessage(`试试按亮起的琴键，弹出《${emotions[emotion].songName}》吧！`);
+        }
+
+        function hideKeyGuide() {
+            document.querySelectorAll('.emotion-key').forEach(key => key.classList.remove('highlight'));
+        }
+
+        function checkCorrectKey(note, emotion) {
+            if (!emotions[emotion]) return false;
+            return emotions[emotion].keys.includes(note);
+        }
+
+        function playEmotionMelodyWithGuide(emotion) {
+            if (!emotions[emotion]) return;
+            
+            const config = emotions[emotion];
+            let delay = 0;
+            
+            hideKeyGuide();
+            
+            config.keys.forEach((note, index) => {
+                setTimeout(() => {
+                    const keyElement = document.querySelector(`#emotionPianoKeys [data-note="${note}"]`);
+                    if (keyElement) keyElement.classList.add('highlight');
+                    
+                    playEmotionNote(config.melody[index], config.tempo / 1000 * 1.5);
+                    
+                    setTimeout(() => {
+                        if (keyElement) keyElement.classList.remove('highlight');
+                    }, config.tempo * 0.8);
+                }, delay);
+                delay += config.tempo;
+            });
+        }
+
+        function stopAllMusic() {
+            currentOscillators.forEach(osc => {
+                try { osc.stop(); } catch (e) {}
+            });
+            currentOscillators = [];
+        }
+
+        function updateEmotionDisplay(emotion) {
+            const display = document.getElementById('emotionDisplay');
+            const config = emotions[emotion];
+            
+            display.innerHTML = `
+                <div class="emotion-visual" style="background: ${config.color};"></div>
+                <h3>${config.emoji} ${config.name}</h3>
+                <p>${config.message}</p>
+                <p><strong>🎵 歌曲：${config.songName}</strong></p>
+            `;
+        }
+
+        function addDiaryEntry(emotion) {
+            const diary = document.getElementById('diaryEntries');
+            const config = emotions[emotion];
+            const now = new Date();
+            const timeStr = now.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
+            
+            const entry = document.createElement('div');
+            entry.className = 'diary-entry';
+            entry.innerHTML = `
+                <strong>${timeStr}</strong> - 我感到${config.emoji} ${config.name}，弹奏了《${config.songName}》
+                <br><small style="color: #666;">${config.message}</small>
+            `;
+            
+            if (diary.firstElementChild && diary.firstElementChild.tagName === 'P') {
+                diary.innerHTML = '';
+            }
+            
+            diary.insertBefore(entry, diary.firstChild);
+            
+            if (diary.children.length > 5) {
+                diary.removeChild(diary.lastChild);
+            }
+        }
+
+        function showFriendMessage(message) {
+            const friendMsg = document.getElementById('friendMessage');
+            friendMsg.querySelector('p').textContent = message;
+            friendMsg.style.display = 'block';
+            
+            setTimeout(() => friendMsg.style.display = 'none', 3000);
+        }
+
+        // 设置功能
+        function initSettings() {
+            const masterVolumeSlider = document.getElementById('master-volume');
+            const pianoVolumeSlider = document.getElementById('piano-volume');
+            const warmthSlider = document.getElementById('warmth-level');
+            const latencySlider = document.getElementById('midi-latency');
+            
+            masterVolumeSlider.addEventListener('input', function() {
+                masterVolume = this.value / 100;
+                document.getElementById('master-volume-value').textContent = this.value + '%';
+            });
+            
+            pianoVolumeSlider.addEventListener('input', function() {
+                pianoVolume = this.value / 100;
+                document.getElementById('piano-volume-value').textContent = this.value + '%';
+            });
+
+            warmthSlider.addEventListener('input', function() {
+                warmthLevel = this.value / 100;
+                document.getElementById('warmth-value').textContent = this.value + '%';
+            });
+
+            latencySlider.addEventListener('input', function() {
+                midiLatency = parseInt(this.value);
+                document.getElementById('latency-value').textContent = midiLatency + 'ms';
+            });
+            
+            document.querySelectorAll('.toggle').forEach(toggle => {
+                toggle.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                    handleSettingChange(this.id, this.classList.contains('active'));
+                });
+            });
+        }
+
+        function handleSettingChange(settingId, enabled) {
+            switch(settingId) {
+                case 'note-names-toggle':
+                    document.querySelectorAll('.note-name').forEach(name => {
+                        name.style.display = enabled ? 'block' : 'none';
+                    });
+                    break;
+                case 'midi-priority-toggle':
+                    console.log('MIDI输入优先级:', enabled ? '已启用' : '已禁用');
+                    break;
+            }
+        }
+
+        // 胜利提示
+        function showVictory(message, isSuccess = true) {
+            const overlay = document.getElementById('victoryOverlay');
+            const messageEl = document.getElementById('victoryMessage');
+            const emojiEl = overlay.querySelector('.victory-emoji');
+            const titleEl = overlay.querySelector('.victory-title');
+            
+            if (isSuccess) {
+                emojiEl.textContent = '🎉';
+                titleEl.textContent = '太棒了！';
+                titleEl.style.color = 'var(--success-color)';
+            } else {
+                emojiEl.textContent = '💪';
+                titleEl.textContent = '继续努力！';
+                titleEl.style.color = 'var(--accent-color)';
+            }
+            
+            messageEl.textContent = message;
+            overlay.style.display = 'flex';
+        }
+
+        function closeVictory() {
+            document.getElementById('victoryOverlay').style.display = 'none';
+        }
+
+        function continueExercise() {
+            closeVictory();
+            if (currentExercise === 'scale') {
+                resetScale();
+            } else if (currentExercise === 'interval') {
+                startInterval();
+            }
+        }
+
+        // 键盘快捷键支持
+        document.addEventListener('keydown', function(e) {
+            const keyMap = {
+                'z': 48, 's': 49, 'x': 50, 'd': 51, 'c': 52, 'v': 53, 'g': 54, 'b': 55, 'h': 56, 'n': 57, 'j': 58, 'm': 59,
+                'q': 60, '2': 61, 'w': 62, '3': 63, 'e': 64, 'r': 65, '5': 66, 't': 67, '6': 68, 'y': 69, '7': 70, 'u': 71
+            };
+            
+            const midiNote = keyMap[e.key.toLowerCase()];
+            if (midiNote) {
+                const key = document.querySelector(`[data-note="${midiNote}"]`);
+                if (key && !key.classList.contains('active')) {
+                    key.classList.add('active');
+                    startPlayingNote(midiNote);
+                    updateNotationDisplay(midiNote);
+                    
+                    if (currentPage === 'exercise' && currentExercise === 'scale') {
+                        checkScaleNote(midiNote);
+                    }
+                }
+            }
         });
 
-        // 添加一些交互效果
-        document.addEventListener('DOMContentLoaded', function() {
-            // 渐进式加载动画
-            const elements = document.querySelectorAll('.feature-item');
-            elements.forEach((el, index) => {
-                el.style.opacity = '0';
-                el.style.transform = 'translateY(20px)';
-                setTimeout(() => {
-                    el.style.transition = 'all 0.6s ease';
-                    el.style.opacity = '1';
-                    el.style.transform = 'translateY(0)';
-                }, index * 200);
-            });
+        document.addEventListener('keyup', function(e) {
+            const keyMap = {
+                'z': 48, 's': 49, 'x': 50, 'd': 51, 'c': 52, 'v': 53, 'g': 54, 'b': 55, 'h': 56, 'n': 57, 'j': 58, 'm': 59,
+                'q': 60, '2': 61, 'w': 62, '3': 63, 'e': 64, 'r': 65, '5': 66, 't': 67, '6': 68, 'y': 69, '7': 70, 'u': 71
+            };
+            
+            const midiNote = keyMap[e.key.toLowerCase()];
+            if (midiNote) {
+                const key = document.querySelector(`[data-note="${midiNote}"]`);
+                if (key) {
+                    key.classList.remove('active');
+                    stopPlayingNote(midiNote);
+                    if (currentPage === 'staff') {
+                        clearNotationDisplay();
+                    }
+                }
+            }
         });
+
+        // 全局函数
+        window.changeBPM = changeBPM;
+        window.toggleMetronome = toggleMetronome;
+        window.startScale = startScale;
+        window.stopScale = stopScale;
+        window.resetScale = resetScale;
+        window.playScaleDemo = playScaleDemo;
+        window.startInterval = startInterval;
+        window.playCurrentInterval = playCurrentInterval;
+        window.resetIntervalStats = resetIntervalStats;
+        window.selectInterval = selectInterval;
+        window.continueExercise = continueExercise;
+        window.closeVictory = closeVictory;
+        window.toggleMIDIConnection = toggleMIDIConnection;
+        window.refreshMIDIDevices = refreshMIDIDevices;
+        window.testMIDI = testMIDI;
     </script>
 </body>
 </html>
